@@ -1,6 +1,7 @@
 site_name: a-unique-name-for-your-docs
 site_description: An informative description
-plugins:
-  - techdocs-core
+
+docs_dir: ./docs/
+
 nav:
   - Getting Started: index.md
