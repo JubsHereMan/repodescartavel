@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: toolkit_service_v2
-  title:  Toolkit Service V2
+  name: testestes_v2
+  title:  testestes V2
   description: |
     Microserviço toolkit para servir como caixa de ferramentas 
   annotations:
