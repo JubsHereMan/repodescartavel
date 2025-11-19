@@ -3,5 +3,8 @@ site_description: An informative description
 
 docs_dir: ./docs/
 
+plugins:
+  - techdocs-core
+
 nav:
   - Getting Started: index.md
