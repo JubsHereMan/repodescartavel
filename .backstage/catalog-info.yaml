@@ -1,10 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: a-unique-name-for-your-docs
+  name: toolkit_service_v2
+  title:  Toolkit Service V2
+  description: |
+    Microserviço toolkit para servir como caixa de ferramentas 
   annotations:
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - go
+    - oauth2
+    - service
+    - swagger
 spec:
-  type: documentation
-  lifecycle: experimental
-  owner: user-or-team-name
+  type: service
+  lifecycle: production
+  owner: desenvolvedores
+  system: mackensina
+  providesApis:
+    - toolkit-ms-v2
+  dependsOn:
+    - resource:db-toolkit-v2
