@@ -13,11 +13,6 @@ metadata:
     - service
     - swagger
 spec:
-  type: service
-  lifecycle: production
-  owner: desenvolvedores
-  system: mackensina
-  providesApis:
-    - toolkit-ms-v2
-  dependsOn:
-    - resource:db-toolkit-v2
+  type: documentation
+  lifecycle: experimental
+  owner: user-or-team-name
